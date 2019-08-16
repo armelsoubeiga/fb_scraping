@@ -52,3 +52,7 @@ optional arguments:
                         comments it can take a while                        
 ```
 
+Example: ```python scraper.py -page RochKaborePF -len 20 -usage WT```
+
+#
+The output is posts.txt inside the script folder.
