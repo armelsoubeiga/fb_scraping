@@ -1,3 +1,11 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Aug 06 10:34:20 2019
+
+@author: Soubeiga Armel
+"""
+
+
 import argparse
 import time
 import json
@@ -113,7 +121,7 @@ def extract(page, numOfPost, infinite_scroll=False, scrape_comment=False):
     })
 
     
-    browser = webdriver.Chrome(executable_path=r'C:\Users\aso\Documents\WPy-3710\scripts\fb0\chromedriver.exe')
+    browser = webdriver.Chrome(executable_path='chromedriver.exe')
     browser.get("http://facebook.com/" + page + "/posts")
 
     if infinite_scroll:
